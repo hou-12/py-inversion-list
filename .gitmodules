@@ -1,4 +1,0 @@
-[submodule "inversion-list/c-inversion-list"]
-	path = inversion-list/c-inversion-list
-	url = git@github.com:hou-12/inversion-list.git
-	url = https://github.com/hou-12/inversion-list.git
