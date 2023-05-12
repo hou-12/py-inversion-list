@@ -5,8 +5,8 @@ import sys
 
 from datetime import date
 
-author = "Christophe Demko"
-project = "py-arithmetic"
+author = "Groupe H"
+project = "py-inversion-list"
 version = "0.1.0"
 
 year = date.today().year
