@@ -1,0 +1,4 @@
+[submodule "inversion-list/inversion-list"]
+	path = inversion-list/c-arithmetic
+	url = git@github.com:chdemko/c-arithmetic.git
+	url = https://github.com/chdemko/c-arithmetic.git
