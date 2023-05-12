@@ -18,13 +18,13 @@
         "inversion-list/**/*.pxd",
         "inversion-list/**/*.c",
         "inversion-list/**/*.pyx",
-        "inversion-list/inversion-list",
+        "inversion-list/c-inversion-list",
     ]
     include = [
         { path = "inversion-list/**/*.so", format = "wheel" },
         { path = "inversion-list/**/*.pxd", format = "sdist" },
         { path = "inversion-list/**/*.pyx", format = "sdist" },
-        { path = "inversion-list/inversion-list/**/*", format = "sdist" },
+        { path = "inversion-list/c-inversion-list/**/*", format = "sdist" },
     ]
 
 [tool.poetry.build]
@@ -82,4 +82,4 @@
     sphinx-rtd-theme = "^1.2.0"
 
 [tool.mypy]
-exclude = ["inversion-list/inversion-list"]
+exclude = ["inversion-list/c-inversion-list"]
