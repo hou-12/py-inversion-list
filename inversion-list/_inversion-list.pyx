@@ -1,4 +1,4 @@
-# distutils: sources = inversion-list/inversion-list/src/inversion-list/inversion-list.c 
+# distutils: sources = inversion-list/src/inversion-list/inversion-list.c 
 # distutils: include_dirs = inversion-list/inversion-list/src/inversion-list
 # distutils: extra_compile_args = -O3
 
