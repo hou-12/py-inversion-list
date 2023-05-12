@@ -3,7 +3,7 @@
 # distutils: extra_compile_args = -O3
 from typing import AbstractSet, Iterable, Iterator, Optional, Tuple
 
-cimport inversion-list.c_inversion-list
+cimport inversionList.c_inversion-list
 class IntegerSet(AbstractSet[int]):
     def __init__(self, intervals: Optional[Iterable[Tuple[int, int]]] = None,) -> None: 
         if intervals is not None:
